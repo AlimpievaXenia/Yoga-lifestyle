@@ -1,0 +1,32 @@
+.navigIcons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 5%;
+  right: 3%;
+  color: black;
+  justify-content: space-between;
+  z-index: 1;
+  align-items: end;
+  height: 237px;
+}
+
+.headerMenu {
+  position: absolute;
+  z-index: 1;
+  left: 3%;
+  top: 5%;
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .navigIcons {
+    flex-direction: row;
+    top: 2%;
+    width: 250px;
+    height: 50px;
+    right: 4%;
+  }
+  .headerMenu {
+    top: 3%;
+  }
+}
