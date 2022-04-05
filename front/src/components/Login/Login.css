@@ -1,0 +1,11 @@
+.loginForm {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm input {
+  width: 250px;
+}

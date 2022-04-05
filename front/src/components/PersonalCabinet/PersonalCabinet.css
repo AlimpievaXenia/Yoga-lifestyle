@@ -1,0 +1,92 @@
+.personalCabinetPage {
+  display: flex;
+  margin-top: 10%;
+  margin-bottom: 7%;
+  justify-content: center;
+}
+
+.cabinetPage {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  height: 756px;
+  color: #333333;
+  background: linear-gradient(to top, #ffffcc 10%, #ffffff 100%);
+  border-radius: 35px;
+  box-shadow: 0px 30px 60px rgb(34 31 32 / 60%);
+  padding: 50px 30px;
+}
+
+.titleBooking {
+  text-align: center;
+  color: #333333;
+}
+
+.personalInfoBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 7%;
+  width: 580px;
+  padding-left: 40%;
+}
+
+.avatar {
+  margin-top: 2%;
+}
+
+.avatar_Data {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.avatarWithoutPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 215px;
+}
+
+.addPhotoInput {
+  display: flex;
+  align-items: baseline;
+}
+
+.editIcon {
+  padding-left: 2%;
+}
+
+.bookings {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3%;
+  border-top: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.prevBook,
+.futureBook {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bookingOfUser {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  padding-left: 11%;
+}
+
+.personIcon,
+.groupIcon {
+  margin-right: 3%;
+}
+
+.pdfGuide {
+  color: #00bfff;
+  margin-left: 50%;
+  margin-top: 8%;
+  font-size: 20px;
+}

@@ -1,0 +1,32 @@
+.inspirationArea {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  height: 80vh;
+  padding: 40px;
+  /* background: linear-gradient(230deg, #b9deed, #efefef); */
+}
+
+.inspireCard {
+  height: 900px;
+}
+
+.inspirationCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) and (orientation: portrait) {
+  .inspirationArea {
+    height: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .inspireCard {
+    max-width: 330px;
+    height: 625px;
+  }
+}

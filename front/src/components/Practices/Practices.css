@@ -1,0 +1,18 @@
+.practicesPage {
+    margin-top: 15%;
+    margin-bottom: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxPractices {
+  border: cadetblue !important;
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
